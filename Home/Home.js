@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
     if(localStorage.getItem("PIN?")) {
         console.warn("Pin Accessed Succesfully !" + localStorage.getItem("PIN?"))
     }
-    else {window.location.href = "./isPIN/Pin.html"}
+    else {window.location.href = "../isPIN/Pin.html"}
 
     setTimeout(() => {
         
